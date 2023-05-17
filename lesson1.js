@@ -1,4 +1,4 @@
-//Task 1 💻
+//Task 1
 
 let x = 20;
 let y = 58;
