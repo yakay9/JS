@@ -63,3 +63,64 @@ console.log(lengthWords);
 
 //Task 6 //////////////////////////////////
 
+let numberVariable = 42;
+let stringVariable = "Hello, world!";
+let booleanVariable = true;
+
+console.log(`Variable: numberVariable has type: ${typeof numberVariable}`);
+console.log(`Variable: stringVariable has type: ${typeof stringVariable}`);
+console.log(`Variable: booleanVariable has type: ${typeof booleanVariable}`);
+
+//Task 7 //////////////////////////////////
+
+let name = prompt("Введите ваше имя:");
+let age = prompt("Введите ваш возраст:");
+
+console.log("Имя пользователя:", name);
+console.log("Возраст пользователя:", age);
+
+//Task #1 ///
+Поменяйте значение переменных местами не создавая дополнительной переменной:
+
+    ```javascript
+    let a = 4
+    let b = 3
+```
+мне не понятна логика, (как догодываться), задачу нагуглил
+let a = 4;
+let b = 3;
+
+a = a + b; // a = 7
+b = a - b; // b = 4
+a = a - b; // a = 3
+
+console.log("a =", a); // Выведет: a = 3
+console.log("b =", b); // Выведет: b = 4
+
+//Task #2///
+В данном послании скрыт шифр! Чтобы его разгадать нам нужно соединить все вторые символы слов!
+
+    ```javascript
+    let codeWord1 = "обернись";
+    let codeWord2 = "неужели";
+    let codeWord3 = "огурцы";
+    let codeWord4 = "липкие";
+    let codeWord5 = "?!";
+```
+Создайте переменную **`cipher`** и поместите туда необходимые символы
+
+**************************
+
+Для разгадки шифра, где нужно соединить все вторые символы слов, создадим переменную `cipher` и объединим в неё все вторые символы из заданных слов. Вот пример кода:
+
+    ```javascript
+let codeWord1 = "обернись";
+let codeWord2 = "неужели";
+let codeWord3 = "огурцы";
+let codeWord4 = "липкие";
+let codeWord5 = "?!";
+
+let cipher = codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + codeWord5[1];
+console.log(cipher);
+
+беги!
